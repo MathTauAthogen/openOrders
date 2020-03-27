@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 app = Flask(__name__)
-from dotenv import load_dotenv()
+from dotenv import load_dotenv
 load_dotenv()
 #Note: Use os.getenv() to get values in the dotenv file.
 
